@@ -1,18 +1,24 @@
 package lesson_book;
 
-public class Bird extends Animal{
+public class Bird extends Animal {
 
     String feathers;
     String beak;
 
     static int birdCount = 17;
 
-    public Bird(String size, String color, String species, String feathers, String beak){
-        super(size, color, species);
+    public Bird(String name, String feathers, String beak) {
+        super("Орел", "птица");
         this.feathers = feathers;
         this.beak = beak;
+    }
 
-        System.out.println("Конструктор класса Птицы");
-        System.out.println("Сколько птиц у нас всего" + birdCount);
+    public void move() {
+
+        System.out.println("Я летаю!!!!!!!");
+    }
+
+    public void speak() {
+        
     }
 }

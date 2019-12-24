@@ -1,18 +1,21 @@
 package lesson_book;
 
-public class Animal {
-    String size;
-    String color;
-    String species;
+abstract class Animal implements Movable, Speakable {
 
-    public static int animalCount = 15;
+    String name;
+    String type;
 
-    public Animal(String size, String color, String species) {
-        this.size = size;
-       this.color = color;
-       this.species = species;
-       System.out.println("Конструктор базового класса Animal");
-       System.out.println("Текущее значение animalCount" + animalCount);
+    public Animal(String name, String type) {
+        this.name = name;
+        this.type = type;
     }
+
+
+    public void speak() {
+        System.out.println("Я " + name);
+        System.out.println("Я " + type);
+    }
+
+    ;
 
 }

@@ -3,8 +3,8 @@ package lesson_book;
 public class Eagle extends Bird{
 
 
-    public Eagle(String size, String color, String species, String feathers, String beak){
-        super(size, color, species, feathers, beak);
+    public Eagle(String feathers, String beak, String name){
+        super(feathers, beak, name);
 
         System.out.println();
 
