@@ -3,12 +3,31 @@ package lesson_book;
 public class Main {
 
    public static void main(String[] args) {
-       Pike pike = new Pike("Большая", "Серая", "Хищник", "5", "мелкая");
-       Carp carp = new Carp("Средний", "Серебристый", "Всеядный", "6", "крупная");
 
-       Eagle eagle = new Eagle("Очень большой", "Серо-бело-черный", "Хищник", "На крыльях - огромные маховые перья", "Загнутый, огромный");
-       Sparrow sparrow = new Sparrow("Маленький", "серый", "Насекомоядный", "перышки небольшие", "маленький, короткий");
+       Eagle eagle = new Eagle();
+       Sparrow sparrow = new Sparrow();
+       Carp carp = new Carp();
+       Pike pike = new Pike();
 
+//       System.out.println(eagle);
+//       System.out.println(sparrow);
+//       System.out.println(carp);
+//       System.out.println(pike);
 
+       System.out.println("Орел: ");
+       eagle.speak();
+       eagle.move();
+
+       System.out.println("Воробей: ");
+       sparrow.speak();
+       sparrow.move();
+
+       System.out.println("Щука: ");
+       pike.speak();
+       pike.move();
+
+       System.out.println("Карп: ");
+       carp.speak();
+       carp.move();
     }  //   Конец  метода  main
 }  // Конец класса
