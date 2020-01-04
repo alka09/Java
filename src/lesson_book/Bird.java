@@ -4,9 +4,9 @@ public class Bird extends Animal {
 
     String beak;
 
-    public Bird(String name, String type, String beak) {
+    public Bird(String name) {
         super(name, "птица");
-        this.beak = beak;
+        this.beak = "клюв";
     }
     public void move() {
         System.out.println("Я летаю");

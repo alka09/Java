@@ -4,9 +4,9 @@ public class Fish extends Animal {
 
     String fins;
 
-    public Fish(String name, String type, String fins) {
+    public Fish(String name) {
         super(name, "рыба");
-        this.fins = fins;
+        this.fins = "плавники";
     }
     public void move() {
         System.out.println("Я плаваю.");

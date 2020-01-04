@@ -4,11 +4,15 @@ public class Main {
 
    public static void main(String[] args) {
 
-       Eagle eagle = new Eagle("птица", "большой", "орел");
-       Sparrow sparrow = new Sparrow("птица", "маленький", "воробей");
-       Carp carp = new Carp("рыба", "семь плавников", "карп");
-       Pike pike = new Pike("рыба", "пять плавников", "щука");
+       Eagle eagle = new Eagle();
+       Sparrow sparrow = new Sparrow();
+       Carp carp = new Carp();
+       Pike pike = new Pike();
 
+//       System.out.println(eagle);
+//       System.out.println(sparrow);
+//       System.out.println(carp);
+//       System.out.println(pike);
 
        System.out.println("Орел: ");
        eagle.speak();
