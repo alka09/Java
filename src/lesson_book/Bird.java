@@ -8,6 +8,7 @@ public class Bird extends Animal {
         super(name, "птица");
         this.beak = "клюв";
     }
+
     public void move() {
         System.out.println("Я летаю");
     }

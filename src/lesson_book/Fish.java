@@ -8,6 +8,7 @@ public class Fish extends Animal {
         super(name, "рыба");
         this.fins = "плавники";
     }
+
     public void move() {
         System.out.println("Я плаваю.");
     }
