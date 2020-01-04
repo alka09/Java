@@ -12,8 +12,12 @@ abstract class Animal implements Movable, Speakable {
 
 
     public void speak() {
-        System.out.println("Я " + name);
-        System.out.println("Я " + type);
+        System.out.print("Я " + name + "." + " ");
+        System.out.println("Я " + type + ".");
+    }
+
+    public void move() {
+
     }
 
     ;

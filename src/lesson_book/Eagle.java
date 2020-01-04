@@ -3,10 +3,9 @@ package lesson_book;
 public class Eagle extends Bird{
 
 
-    public Eagle(String feathers, String beak, String name){
-        super(feathers, beak, name);
-
-        System.out.println();
+    public Eagle(String type, String beak, String name){
+        super(type, beak, name);
+        this.name = "Орел";
 
     }
 

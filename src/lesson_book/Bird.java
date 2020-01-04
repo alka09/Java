@@ -2,23 +2,20 @@ package lesson_book;
 
 public class Bird extends Animal {
 
-    String feathers;
     String beak;
 
-    static int birdCount = 17;
-
-    public Bird(String name, String feathers, String beak) {
-        super("Орел", "птица");
-        this.feathers = feathers;
+    public Bird(String name, String type, String beak) {
+        super(name, type);
         this.beak = beak;
+        this.type = "птица";
+        this.name = name;
+
     }
+
 
     public void move() {
 
-        System.out.println("Я летаю!!!!!!!");
+        System.out.println("Я летаю");
     }
 
-    public void speak() {
-        
-    }
 }
